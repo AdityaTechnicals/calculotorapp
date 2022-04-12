@@ -1,8 +1,8 @@
 :root {
-    --bgcolror: burlywood;
-    --bgc: rgb(0, 0, 0);
-    --bgbtn: rgb(54, 52, 52);
-    --fontcl: #fff;
+    --bgcolror: #ECF0F1;
+    --bgc: #283747;
+    --bgbtn: #5D6D7E;
+    --fontcl: #1ABC9C;
 }
 
 * {
@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 
-body {
+.body {
     background: var(--bgcolror);
     display: grid;
     place-content: center;
@@ -45,12 +45,17 @@ body {
     overflow: hidden;
 }
 
+.inputnum {
+    height: 100%;
+    width: 100%;
+}
+
 .btn {
     display: grid;
     place-content: center;
     border-radius: 50%;
     background-color: var(--bgbtn);
-    color: var(--fontcl);
+    color: #F5EEF8;
     cursor: pointer;
     font-weight: bold;
 }
@@ -70,9 +75,9 @@ body {
 
 .org:hover {
     background: var(--fontcl);
-    color: orange;
+    color: #E222A5;
 }
 
 .org {
-    background: orange;
+    background: #E222A5;
 }
